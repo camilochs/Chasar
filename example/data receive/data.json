@@ -1,0 +1,718 @@
+{
+   "disk": {
+      "total_bytes": 249787973632,
+      "total_bytes_free": 3205890048,
+      "total_bytes_used": 246319939584,
+      "percent_used": 98.7
+   },
+   "ipv4_interfaces": [
+      {
+         "broadcast": "192.168.1.255",
+         "netmask": "255.255.255.0",
+         "addr": "192.168.1.31"
+      }
+   ],
+   "process": {
+      "crashpad_handler": {
+         "status": "running",
+         "percent_memory_used": 0.009489059,
+         "pid": 357,
+         "percent_cpu_used": 0
+      },
+      "CalNCService": {
+         "status": "running",
+         "percent_memory_used": 0.18892288,
+         "pid": 50662,
+         "percent_cpu_used": 0
+      },
+      "ViewBridgeAuxiliary": {
+         "status": "running",
+         "percent_memory_used": 0.009202957,
+         "pid": 41543,
+         "percent_cpu_used": 0
+      },
+      "pboard": {
+         "status": "running",
+         "percent_memory_used": 3.8146973E-4,
+         "pid": 283,
+         "percent_cpu_used": 0
+      },
+      "Adobe CEF Helper": {
+         "status": "running",
+         "percent_memory_used": 0.114393234,
+         "pid": 841,
+         "percent_cpu_used": 0
+      },
+      "CommCenter": {
+         "status": "running",
+         "percent_memory_used": 0.053453445,
+         "pid": 274,
+         "percent_cpu_used": 0
+      },
+      "Google Chrome": {
+         "status": "running",
+         "percent_memory_used": 4.621315,
+         "pid": 277,
+         "percent_cpu_used": 0
+      },
+      "com.apple.iCloudHelper": {
+         "status": "running",
+         "percent_memory_used": 0.08945465,
+         "pid": 51010,
+         "percent_cpu_used": 0
+      },
+      "WiFiProxy": {
+         "status": "running",
+         "percent_memory_used": 0.018548965,
+         "pid": 367,
+         "percent_cpu_used": 0
+      },
+      "soagent": {
+         "status": "running",
+         "percent_memory_used": 0.17318726,
+         "pid": 50565,
+         "percent_cpu_used": 0
+      },
+      "sharedfilelistd": {
+         "status": "running",
+         "percent_memory_used": 0.047922134,
+         "pid": 279,
+         "percent_cpu_used": 0
+      },
+      "Code Helper": {
+         "status": "running",
+         "percent_memory_used": 0.052690506,
+         "pid": 39579,
+         "percent_cpu_used": 0
+      },
+      "Terminal": {
+         "status": "running",
+         "percent_memory_used": 0.8543968,
+         "pid": 328,
+         "percent_cpu_used": 0
+      },
+      "iconservicesagent": {
+         "status": "running",
+         "percent_memory_used": 0.06985664,
+         "pid": 50954,
+         "percent_cpu_used": 0
+      },
+      "DictationIM": {
+         "status": "running",
+         "percent_memory_used": 0.20489693,
+         "pid": 50583,
+         "percent_cpu_used": 0
+      },
+      "akd": {
+         "status": "running",
+         "percent_memory_used": 0.07209778,
+         "pid": 50573,
+         "percent_cpu_used": 0
+      },
+      "loginwindow": {
+         "status": "running",
+         "percent_memory_used": 0.20313263,
+         "pid": 102,
+         "percent_cpu_used": 0
+      },
+      "Creative Cloud": {
+         "status": "running",
+         "percent_memory_used": 0.11258125,
+         "pid": 813,
+         "percent_cpu_used": 0
+      },
+      "nbagent": {
+         "status": "running",
+         "percent_memory_used": 0.043058395,
+         "pid": 1401,
+         "percent_cpu_used": 0
+      },
+      "diagnostics_agent": {
+         "status": "running",
+         "percent_memory_used": 0.043916702,
+         "pid": 816,
+         "percent_cpu_used": 0
+      },
+      "Image Capture Extension": {
+         "status": "running",
+         "percent_memory_used": 0.026226044,
+         "pid": 750,
+         "percent_cpu_used": 0
+      },
+      "storeinappd": {
+         "status": "running",
+         "percent_memory_used": 0.029373169,
+         "pid": 787,
+         "percent_cpu_used": 0
+      },
+      "LaterAgent": {
+         "status": "running",
+         "percent_memory_used": 0.031375885,
+         "pid": 890,
+         "percent_cpu_used": 0
+      },
+      "Dock": {
+         "status": "running",
+         "percent_memory_used": 0.12831688,
+         "pid": 331,
+         "percent_cpu_used": 0
+      },
+      "SocialPushAgent": {
+         "status": "running",
+         "percent_memory_used": 0.01578331,
+         "pid": 295,
+         "percent_cpu_used": 0
+      },
+      "Python": {
+         "status": "running",
+         "percent_memory_used": 0.046634674,
+         "pid": 45041,
+         "percent_cpu_used": 0
+      },
+      "DiskUnmountWatcher": {
+         "status": "running",
+         "percent_memory_used": 0.002002716,
+         "pid": 37508,
+         "percent_cpu_used": 0
+      },
+      "useractivityd": {
+         "status": "running",
+         "percent_memory_used": 0.036621094,
+         "pid": 347,
+         "percent_cpu_used": 0
+      },
+      "CalendarAgent": {
+         "status": "running",
+         "percent_memory_used": 0.082206726,
+         "pid": 287,
+         "percent_cpu_used": 0
+      },
+      "ACCFinderSync": {
+         "status": "running",
+         "percent_memory_used": 0.021457672,
+         "pid": 343,
+         "percent_cpu_used": 0
+      },
+      "usernoted": {
+         "status": "running",
+         "percent_memory_used": 0.021457672,
+         "pid": 317,
+         "percent_cpu_used": 0
+      },
+      "Xcode": {
+         "status": "running",
+         "percent_memory_used": 0.3997326,
+         "pid": 50472,
+         "percent_cpu_used": 0
+      },
+      "askpermissiond": {
+         "status": "running",
+         "percent_memory_used": 0.0030994415,
+         "pid": 323,
+         "percent_cpu_used": 0
+      },
+      "imklaunchagent": {
+         "status": "running",
+         "percent_memory_used": 0.012254715,
+         "pid": 312,
+         "percent_cpu_used": 0
+      },
+      "imagent": {
+         "status": "running",
+         "percent_memory_used": 0.018882751,
+         "pid": 353,
+         "percent_cpu_used": 0
+      },
+      "bash": {
+         "status": "running",
+         "percent_memory_used": 9.536743E-5,
+         "pid": 405,
+         "percent_cpu_used": 0
+      },
+      "tccd": {
+         "status": "running",
+         "percent_memory_used": 0.0500679,
+         "pid": 50567,
+         "percent_cpu_used": 0
+      },
+      "accountsd": {
+         "status": "running",
+         "percent_memory_used": 0.08587837,
+         "pid": 50569,
+         "percent_cpu_used": 0
+      },
+      "com.apple.speech.speechsynthesisd": {
+         "status": "running",
+         "percent_memory_used": 0.023889542,
+         "pid": 8037,
+         "percent_cpu_used": 0
+      },
+      "fontd": {
+         "status": "running",
+         "percent_memory_used": 0.06637573,
+         "pid": 284,
+         "percent_cpu_used": 0
+      },
+      "AppleSpell": {
+         "status": "running",
+         "percent_memory_used": 0.07982254,
+         "pid": 400,
+         "percent_cpu_used": 0
+      },
+      "com.apple.preference.network.remoteservice": {
+         "status": "running",
+         "percent_memory_used": 0.078487396,
+         "pid": 41542,
+         "percent_cpu_used": 0
+      },
+      "Keychain Circle Notification": {
+         "status": "running",
+         "percent_memory_used": 0.020360947,
+         "pid": 800,
+         "percent_cpu_used": 0
+      },
+      "Finder": {
+         "status": "running",
+         "percent_memory_used": 6.5192223,
+         "pid": 333,
+         "percent_cpu_used": 0
+      },
+      "fsnotifier": {
+         "status": "running",
+         "percent_memory_used": 0.003194809,
+         "pid": 39175,
+         "percent_cpu_used": 0
+      },
+      "com.apple.geod": {
+         "status": "running",
+         "percent_memory_used": 0.061416626,
+         "pid": 50716,
+         "percent_cpu_used": 0
+      },
+      "Spotlight": {
+         "status": "running",
+         "percent_memory_used": 0.21877289,
+         "pid": 364,
+         "percent_cpu_used": 0
+      },
+      "suggestd": {
+         "status": "running",
+         "percent_memory_used": 0.19626617,
+         "pid": 50657,
+         "percent_cpu_used": 0
+      },
+      "secd": {
+         "status": "running",
+         "percent_memory_used": 0.032901764,
+         "pid": 50578,
+         "percent_cpu_used": 0
+      },
+      "ShipIt": {
+         "status": "running",
+         "percent_memory_used": 0.0041007996,
+         "pid": 39681,
+         "percent_cpu_used": 0
+      },
+      "syncdefaultsd": {
+         "status": "running",
+         "percent_memory_used": 0.04005432,
+         "pid": 35582,
+         "percent_cpu_used": 0
+      },
+      "System Events": {
+         "status": "running",
+         "percent_memory_used": 0.21939278,
+         "pid": 51102,
+         "percent_cpu_used": 0
+      },
+      "com.apple.WebKit.WebContent": {
+         "status": "running",
+         "percent_memory_used": 0.09403229,
+         "pid": 35001,
+         "percent_cpu_used": 0
+      },
+      "SpotlightNetHelper": {
+         "status": "running",
+         "percent_memory_used": 0.018501282,
+         "pid": 383,
+         "percent_cpu_used": 0
+      },
+      "pycharm": {
+         "status": "running",
+         "percent_memory_used": 8.386803,
+         "pid": 39110,
+         "percent_cpu_used": 0
+      },
+      "secinitd": {
+         "status": "running",
+         "percent_memory_used": 0.08068085,
+         "pid": 50566,
+         "percent_cpu_used": 0
+      },
+      "storeuid": {
+         "status": "running",
+         "percent_memory_used": 0.028181076,
+         "pid": 489,
+         "percent_cpu_used": 0
+      },
+      "lsd": {
+         "status": "running",
+         "percent_memory_used": 0.034093857,
+         "pid": 275,
+         "percent_cpu_used": 0
+      },
+      "com.apple.dock.extra": {
+         "status": "running",
+         "percent_memory_used": 0.04210472,
+         "pid": 349,
+         "percent_cpu_used": 0
+      },
+      "BezelUIServer": {
+         "status": "running",
+         "percent_memory_used": 0.12831688,
+         "pid": 50600,
+         "percent_cpu_used": 0
+      },
+      "DataDetectorsDynamicData": {
+         "status": "running",
+         "percent_memory_used": 0.023269653,
+         "pid": 1363,
+         "percent_cpu_used": 0
+      },
+      "Pomodoro Time": {
+         "status": "running",
+         "percent_memory_used": 0.1437664,
+         "pid": 20146,
+         "percent_cpu_used": 0
+      },
+      "ssh": {
+         "status": "running",
+         "percent_memory_used": 0.038719177,
+         "pid": 48067,
+         "percent_cpu_used": 0
+      },
+      "ssh-agent": {
+         "status": "running",
+         "percent_memory_used": 0.0036239624,
+         "pid": 25720,
+         "percent_cpu_used": 0
+      },
+      "AdobeCRDaemon": {
+         "status": "running",
+         "percent_memory_used": 0.022888184,
+         "pid": 840,
+         "percent_cpu_used": 0
+      },
+      "nsurlsessiond": {
+         "status": "running",
+         "percent_memory_used": 0.044584274,
+         "pid": 330,
+         "percent_cpu_used": 0
+      },
+      "storeaccountd": {
+         "status": "running",
+         "percent_memory_used": 0.03762245,
+         "pid": 365,
+         "percent_cpu_used": 0
+      },
+      "storelegacy": {
+         "status": "running",
+         "percent_memory_used": 0.004529953,
+         "pid": 348,
+         "percent_cpu_used": 0
+      },
+      "identityservicesd": {
+         "status": "running",
+         "percent_memory_used": 0.030851364,
+         "pid": 281,
+         "percent_cpu_used": 0
+      },
+      "AirPlayUIAgent": {
+         "status": "running",
+         "percent_memory_used": 0.10495186,
+         "pid": 50576,
+         "percent_cpu_used": 0
+      },
+      "mdworker": {
+         "status": "running",
+         "percent_memory_used": 0.0054836273,
+         "pid": 897,
+         "percent_cpu_used": 0
+      },
+      "CloudKeychainProxy": {
+         "status": "running",
+         "percent_memory_used": 0.03552437,
+         "pid": 50579,
+         "percent_cpu_used": 0
+      },
+      "TeamViewer": {
+         "status": "running",
+         "percent_memory_used": 0.14209747,
+         "pid": 40172,
+         "percent_cpu_used": 0
+      },
+      "nsurlstoraged": {
+         "status": "running",
+         "percent_memory_used": 0.04324913,
+         "pid": 50574,
+         "percent_cpu_used": 0
+      },
+      "com.apple.WebKit.Networking": {
+         "status": "running",
+         "percent_memory_used": 0.0037670135,
+         "pid": 34858,
+         "percent_cpu_used": 0
+      },
+      "NotificationCenter": {
+         "status": "running",
+         "percent_memory_used": 0.10719299,
+         "pid": 803,
+         "percent_cpu_used": 0
+      },
+      "Spotify": {
+         "status": "running",
+         "percent_memory_used": 0.47478676,
+         "pid": 299,
+         "percent_cpu_used": 0
+      },
+      "distnoted": {
+         "status": "running",
+         "percent_memory_used": 0.039434433,
+         "pid": 272,
+         "percent_cpu_used": 0
+      },
+      "QuickLookUIHelper": {
+         "status": "running",
+         "percent_memory_used": 0.044584274,
+         "pid": 28490,
+         "percent_cpu_used": 0
+      },
+      "TextEdit": {
+         "status": "running",
+         "percent_memory_used": 0.2307415,
+         "pid": 50475,
+         "percent_cpu_used": 0
+      },
+      "SystemUIServer": {
+         "status": "running",
+         "percent_memory_used": 0.1493454,
+         "pid": 332,
+         "percent_cpu_used": 0
+      },
+      "Google Chrome Helper": {
+         "status": "running",
+         "percent_memory_used": 0.2790451,
+         "pid": 359,
+         "percent_cpu_used": 0
+      },
+      "storedownloadd": {
+         "status": "running",
+         "percent_memory_used": 0.009727478,
+         "pid": 354,
+         "percent_cpu_used": 0
+      },
+      "System Preferences": {
+         "status": "running",
+         "percent_memory_used": 0.09479523,
+         "pid": 41537,
+         "percent_cpu_used": 0
+      },
+      "Dictionary": {
+         "status": "running",
+         "percent_memory_used": 0.05068779,
+         "pid": 326,
+         "percent_cpu_used": 0
+      },
+      "Adobe Desktop Service": {
+         "status": "running",
+         "percent_memory_used": 0.07367134,
+         "pid": 845,
+         "percent_cpu_used": 0
+      },
+      "node": {
+         "status": "running",
+         "percent_memory_used": 0.056552887,
+         "pid": 851,
+         "percent_cpu_used": 0
+      },
+      "WiFiAgent": {
+         "status": "running",
+         "percent_memory_used": 0.026369095,
+         "pid": 815,
+         "percent_cpu_used": 0
+      },
+      "Preview": {
+         "status": "running",
+         "percent_memory_used": 0.12555122,
+         "pid": 285,
+         "percent_cpu_used": 0
+      },
+      "sharingd": {
+         "status": "running",
+         "percent_memory_used": 0.04181862,
+         "pid": 340,
+         "percent_cpu_used": 0
+      },
+      "CoreServicesUIAgent": {
+         "status": "running",
+         "percent_memory_used": 0.10867119,
+         "pid": 50857,
+         "percent_cpu_used": 0
+      },
+      "storeassetd": {
+         "status": "running",
+         "percent_memory_used": 0.04091263,
+         "pid": 360,
+         "percent_cpu_used": 0
+      },
+      "Activity Monitor": {
+         "status": "running",
+         "percent_memory_used": 0.18668175,
+         "pid": 329,
+         "percent_cpu_used": 0
+      },
+      "FolderActionsDispatcher": {
+         "status": "running",
+         "percent_memory_used": 0.137043,
+         "pid": 50933,
+         "percent_cpu_used": 0
+      },
+      "AdobeIPCBroker": {
+         "status": "running",
+         "percent_memory_used": 0.030565262,
+         "pid": 832,
+         "percent_cpu_used": 0
+      },
+      "EvernoteHelper": {
+         "status": "running",
+         "percent_memory_used": 0.055933,
+         "pid": 402,
+         "percent_cpu_used": 0
+      },
+      "icdd": {
+         "status": "running",
+         "percent_memory_used": 0.008964539,
+         "pid": 806,
+         "percent_cpu_used": 0
+      },
+      "cloudpaird": {
+         "status": "running",
+         "percent_memory_used": 0.004863739,
+         "pid": 812,
+         "percent_cpu_used": 0
+      },
+      "Core Sync": {
+         "status": "running",
+         "percent_memory_used": 0.040769577,
+         "pid": 850,
+         "percent_cpu_used": 0
+      },
+      "App Store": {
+         "status": "running",
+         "percent_memory_used": 0.1777649,
+         "pid": 35000,
+         "percent_cpu_used": 0
+      },
+      "bird": {
+         "status": "running",
+         "percent_memory_used": 0.08378029,
+         "pid": 325,
+         "percent_cpu_used": 0
+      },
+      "MAMP": {
+         "status": "running",
+         "percent_memory_used": 0.061511993,
+         "pid": 309,
+         "percent_cpu_used": 0
+      },
+      "Electron": {
+         "status": "running",
+         "percent_memory_used": 0.36568642,
+         "pid": 39578,
+         "percent_cpu_used": 0
+      },
+      "cfprefsd": {
+         "status": "running",
+         "percent_memory_used": 0.028562546,
+         "pid": 50584,
+         "percent_cpu_used": 0
+      },
+      "Memory Clean": {
+         "status": "running",
+         "percent_memory_used": 0.08058548,
+         "pid": 35069,
+         "percent_cpu_used": 0
+      },
+      "VTDecoderXPCService": {
+         "status": "running",
+         "percent_memory_used": 0.0726223,
+         "pid": 44057,
+         "percent_cpu_used": 0
+      },
+      "com.apple.AddressBook.ContactsAccountsService": {
+         "status": "running",
+         "percent_memory_used": 0.109910965,
+         "pid": 50568,
+         "percent_cpu_used": 0
+      },
+      "Evernote": {
+         "status": "running",
+         "percent_memory_used": 0.38819313,
+         "pid": 322,
+         "percent_cpu_used": 0
+      },
+      "Spotify Helper": {
+         "status": "running",
+         "percent_memory_used": 0.09741783,
+         "pid": 391,
+         "percent_cpu_used": 0
+      },
+      "UserEventAgent": {
+         "status": "running",
+         "percent_memory_used": 0.042915344,
+         "pid": 270,
+         "percent_cpu_used": 0
+      },
+      "mdflagwriter": {
+         "status": "running",
+         "percent_memory_used": 0.0039100647,
+         "pid": 894,
+         "percent_cpu_used": 0
+      },
+      "RescueTime": {
+         "status": "running",
+         "percent_memory_used": 0.12431145,
+         "pid": 821,
+         "percent_cpu_used": 0
+      },
+      "USBAgent": {
+         "status": "running",
+         "percent_memory_used": 0.0019550323,
+         "pid": 790,
+         "percent_cpu_used": 0
+      },
+      "SpotifyWebHelper": {
+         "status": "running",
+         "percent_memory_used": 0.00872612,
+         "pid": 810,
+         "percent_cpu_used": 0
+      }
+   },
+   "cpu": {
+      "percent_used": [
+         58.6,
+         23.8,
+         51,
+         23
+      ]
+   },
+   "computer_utc_clock": "2016-09-11 23:26:25.771686",
+   "computer_clock": "2016-09-11 20:26:25.771703",
+   "mac_address": "60:03:08:9e:98:b6",
+   "hostname": "MacBook-Pro-de-Camilo.local",
+   "memory": {
+      "total_bytes": 8589934592,
+      "total_bytes_used": 6876008448,
+      "percent_used": 72
+   }
+}

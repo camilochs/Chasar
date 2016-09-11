@@ -82,34 +82,36 @@ And ready! You client node begin to send information to master node.
 
 Also, Chasar allow subscribe to Master node(with zeromq) for receiver the information from all client nodes.
 
+**Note: All subscribers have the port 6666.**
 
 #### Example(Python): Communication with Master node.
 
 ```python
-import pyzmq
+import zmq
 import json
 
 context = zmq.Context()
 socket = context.socket(zmq.SUB)
 
-socket.connect("tcp://%s:%s" % ("127.0.0.1", 5555))
+socket.connect("tcp://%s:%s" % ("104.131.190.21", 6666))
 socket.setsockopt(zmq.SUBSCRIBE, b"Chasar-Client")
 
 while True:
     channel, data_recv = socket.recv_multipart()
 
     ##Receive the information of all client nodes connected.
-    data_json = json.loads(data_recv)
-    pritn(data_json)
+    data_json = json.loads(data_recv.decode())
+    print(data_json)
 
 ```
 
 #### Example(NodeJS): Communication with Master node.
 
-```js
+**Note: Must have zmq binding(version nodejs) installed. Url: https://github.com/JustinTulloss/zeromq.node**
 
+```js
 var zeromq = require('zmq'),
-    ipPort = 'tcp://127.0.0.1:5555',
+    ipPort = 'tcp://104.131.190.21:6666',
     socket = zeromq.socket('sub');
 
 socket.connect(ipPort);
@@ -117,8 +119,13 @@ socket.subscribe('Chasar-Client');
 
 //Receive the information of all client nodes connected.
 socket.on('message', function(channel, data) {
-    console.log(data);
+    var info = JSON.parse(data);
+    console.log(info);
 });
 
 ```
+
+See example of data receive(json):
+/example/data recieve/data.json
+
 

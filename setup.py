@@ -1,0 +1,15 @@
+from setuptools import setup, find_packages
+setup(
+    name='chasar',
+    version='0.0.1',
+    description='Simple distributed system for monitoring.',
+    author='Camilo Chacon Sartori',
+    author_email='camilochs@gmail.com',
+    license='MIT',
+    packages=["masternode", "clientnode"],
+    package_dir={'': 'src/core'},
+    install_requires=["pyzmq", "psutil", "netifaces"],
+    scripts=['src/core/chasar'],
+    include_package_data=True
+
+)
