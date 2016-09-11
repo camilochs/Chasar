@@ -1,5 +1,5 @@
 
-##Chasar
+
 ### A lightweight library health monitoring for remote computer's.
 
 Chasar library have two principal components:
@@ -41,7 +41,7 @@ port = 5555
 For example, If you want specify a ipadress or port:
 
 ```js
-chasar masternode start 190.12.1.1 6666
+chasar masternode start 190.12.0.0 6666
 
 ```
 
@@ -60,14 +60,14 @@ port = 5555
 So, If you master node was created with the next parameters:
 
 ```js
-chasar masternode start 190.1.2.1 6666
+chasar masternode start 190.1.0.0 6666
 
 ```
 
 You client node command must be:
 
 ```js
-chasar clientnode start 190.1.2.1 6666
+chasar clientnode start 190.1.0.0 6666
 
 ```
 
