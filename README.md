@@ -47,7 +47,7 @@ Default:
 For example, If you want specify a ipadress or port:
 
 ```js
-chasar masternode start 190.12.0.0 6666
+chasar masternode start 190.12.0.0 5554
 
 ```
 
@@ -66,14 +66,14 @@ Default:
 So, If you master node was created with the next parameters:
 
 ```js
-chasar masternode start 190.1.0.0 6666
+chasar masternode start 190.1.0.0 5554
 
 ```
 
 You client node command must be:
 
 ```js
-chasar clientnode start 190.1.0.0 6666
+chasar clientnode start 190.1.0.0 5554
 
 ```
 And ready! You client node begin to send information to master node.
