@@ -1,6 +1,6 @@
 
 
-### A lightweight library health monitoring for remote computer's.
+### A lightweight library health monitoring multi-platform for remote computer's .
 
 Chasar library have two principal components:
 
@@ -18,10 +18,16 @@ network description that extracted itself.
 The client node send information approximately each one second.
 
 
+## Prerequisite
+
+*   Python 3.0+
+*   pip3
+
 ## Installation
 
 ```python
-git clone
+git clone https://github.com/camilochs/chasar.git
+cd chasar
 pip3 setup.py install
 
 ```
@@ -35,8 +41,8 @@ chasar masternode start [ip-address-bind] [port]
 
 ```
 Default:
-ip-address = 127.0.0.1
-port = 5555
+[ip-address-bind] = 127.0.0.1
+[port] = 5555
 
 For example, If you want specify a ipadress or port:
 
@@ -54,8 +60,8 @@ chasar clientnode start [ip-address-the-masternode] [port]
 
 ```
 Default:
-ip-address-the-masternode = 127.0.0.1
-port = 5555
+[ip-address-the-masternode] = 127.0.0.1
+[port] = 5555
 
 So, If you master node was created with the next parameters:
 
@@ -70,11 +76,11 @@ You client node command must be:
 chasar clientnode start 190.1.0.0 6666
 
 ```
-
+And ready! You client node begin to send information to master node.
 
 ###Client
 
-Also, Chasar allow subscribe to Master node(with zeromq) for receiver the information from the client nodes.
+Also, Chasar allow subscribe to Master node(with zeromq) for receiver the information from all client nodes.
 
 
 #### Example(Python): Communication with Master node.
@@ -109,8 +115,10 @@ var zeromq = require('zmq'),
 socket.connect(ipPort);
 socket.subscribe('Chasar-Client');
 
+//Receive the information of all client nodes connected.
 socket.on('message', function(channel, data) {
     console.log(data);
 });
 
 ```
+
