@@ -30,7 +30,7 @@ The client node send information approximately each one second.
 ```python
 git clone https://github.com/camilochs/chasar.git
 cd chasar
-pip3 setup.py install
+python3 setup.py install
 
 ```
 
