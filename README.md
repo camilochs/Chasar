@@ -1,6 +1,4 @@
 
-#CHASAR
-
 # [![Chasar Logo](http://104.131.190.21/img/chasar-logo.png)](https://github.com/camilochs/chasar)
 ### A lightweight library health monitoring multi-platform for remote computer's .
 
