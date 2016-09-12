@@ -58,11 +58,11 @@ chasar masternode start 190.12.0.0 5554
 After installed chasar in you remote computer:
 
 ```js
-chasar clientnode start [ip-address-the-masternode] [port]
+chasar clientnode start [ip-address-masternode] [port]
 
 ```
 Default:
-[ip-address-the-masternode] = 127.0.0.1
+[ip-address-masternode] = 127.0.0.1
 [port] = 5555
 
 So, If you master node was created with the next parameters:
