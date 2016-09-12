@@ -127,7 +127,7 @@ socket.on('message', function(channel, data) {
 
 ```
 
-See example of data receive(json):
+See the structure example of data received(json):
 /example/data recieve/data.json
 
 
