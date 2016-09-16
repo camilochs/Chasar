@@ -22,8 +22,8 @@ The client node send information approximately each one second.
 
 ## Prerequisite
 
-*   Python 3.0+
-*   pip3
+*   Python 2.7+
+*   pip
 
 ## Installation
 
