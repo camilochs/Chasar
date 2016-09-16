@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/Library/Frameworks/Python.framework/Versions/3.5/bin/python3
 import sys
 import clientnode
 import masternode
@@ -24,13 +24,12 @@ if __name__ == '__main__':
     elif module == "clientnode" and command == "start":
         try:
             ip_address = sys.argv[3]
-            if len(sys.argv) == 5:
-                port = sys.argv[4]
-                clientnode.start(ip_address, port)
+            port = sys.argv[4]
+            if port is None:
+                clientnode.start()
             else:
-                clientnode.start(ip_address)
-
-        except IndexError:
+                clientnode.start(ip_address, port)
+        except Exception as e:
             print("Missing parameters. ")
 
     else:

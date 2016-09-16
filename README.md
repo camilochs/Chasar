@@ -1,6 +1,6 @@
 
-# [![Chasar Logo](http://104.131.190.21/img/chasar-logo.png)](https://github.com/camilochs/chasar)
-### A lightweight library health monitoring multi-platform for remote computer.
+
+### A lightweight library health monitoring multi-platform for remote computer's .
 
 Chasar library have two principal components:
 
@@ -18,8 +18,6 @@ network description that extracted itself.
 The client node send information approximately each one second.
 
 
-# [![Architecture Chasar](http://104.131.190.21/img/architecture-chasar.png)](https://github.com/camilochs/chasar)
-
 ## Prerequisite
 
 *   Python 3.0+
@@ -30,7 +28,7 @@ The client node send information approximately each one second.
 ```python
 git clone https://github.com/camilochs/chasar.git
 cd chasar
-python3 setup.py install
+pip3 setup.py install
 
 ```
 
@@ -58,11 +56,11 @@ chasar masternode start 190.12.0.0 5554
 After installed chasar in you remote computer:
 
 ```js
-chasar clientnode start [ip-address-masternode] [port]
+chasar clientnode start [ip-address-the-masternode] [port]
 
 ```
 Default:
-[ip-address-masternode] = 127.0.0.1
+[ip-address-the-masternode] = 127.0.0.1
 [port] = 5555
 
 So, If you master node was created with the next parameters:
@@ -127,7 +125,7 @@ socket.on('message', function(channel, data) {
 
 ```
 
-See the structure example of data received(json):
+See example of data receive(json):
 /example/data recieve/data.json
 
 

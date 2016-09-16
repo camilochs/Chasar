@@ -1,3 +1,4 @@
 pyzmq
 psutil
+future
 netifaces
